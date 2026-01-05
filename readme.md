@@ -17,6 +17,9 @@ The objective of this project is to classify Iris flowers into Setosa, Versicolo
 - Setosa forms a completely isolated cluster.
 - Sepal features exhibit significant overlap and are less discriminative.
 
+### Feature Relationships (Pairplot)
+![Pairplot showing feature relationships](images/pairplot.png)
+
 ## Model Selection
 K-Nearest Neighbors (KNN) was chosen due to the cluster-like structure observed in the data. 
 Feature scaling was applied as KNN relies on distance-based calculations.
@@ -25,6 +28,9 @@ Feature scaling was applied as KNN relies on distance-based calculations.
 - Accuracy achieved: 100%
 - Confusion matrix confirms class-wise consistency.
 - Minor divergence observed for higher K values due to decision boundary smoothing.
+  
+### Confusion Matrix
+![Confusion Matrix Heatmap](images/confusion_matrix.png)
 
 ## Limitations & Future Scope
 - Dataset is small and idealized.
