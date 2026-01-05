@@ -30,7 +30,7 @@ Feature scaling was applied as KNN relies on distance-based calculations.
 - Minor divergence observed for higher K values due to decision boundary smoothing.
   
 ### Confusion Matrix
-![Confusion Matrix Heatmap](images/confusion_matrix.png)
+![Confusion Matrix Heatmap](images/confusion matrix.png)
 
 ## Limitations & Future Scope
 - Dataset is small and idealized.
